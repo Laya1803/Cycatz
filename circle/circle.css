@@ -1,0 +1,22 @@
+
+        #circle {
+            position: absolute;
+            translate: 200px 100px;
+            margin-top: 10vh;
+            margin-left: 50vh;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: beige;    
+         }
+         #innercircle{
+            position:absolute;
+            translate: 70px 60px;
+            margin-top: 10px;
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            background-color: bisque;
+            box-shadow: 2px 2px 12px 12px rgba(0, 0, 255, .2);
+         }
+         
