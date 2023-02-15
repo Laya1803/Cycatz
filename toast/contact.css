@@ -1,0 +1,38 @@
+.main_btn{
+    padding: 10px;
+    border: none;
+    background-color: blue;
+    position: absolute;
+    transform: translate(0px,520px);
+}
+.main_btn:hover{
+    cursor: pointer;
+    background: hsl(240, 91%, 30%);
+}
+#toast{
+    visibility: hidden;
+    box-shadow: 0px 0px 43px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    /* font-size: 100; */
+    position: absolute;
+    transform: translate(0px,100px);
+}
+#toast.show{
+    visibility: visible;    
+}
+.close{
+    visibility: hidden;
+}
+.close_btn{
+    color: black;
+    float:right;
+    font-size: 25px;
+}
+.close_btn:hover,
+.close_btn:focus{
+    cursor: pointer;
+    color: black;
+}
