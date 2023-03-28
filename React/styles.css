@@ -1,0 +1,17 @@
+.image{
+    width: 1000px;
+    height: 400px;
+}
+.left{
+    position: relative;
+    top: 30vh;
+    float: left;
+}
+.right{
+    position: relative;
+    top: 30vh;
+    float: right;
+}
+button:hover{
+    cursor: pointer;
+}
